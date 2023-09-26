@@ -11,6 +11,9 @@
         "prepare": "husky install",
         "pre-commit": "npx lint-staged"
     },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
+    },
     "dependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
