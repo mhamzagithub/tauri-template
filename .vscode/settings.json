@@ -6,5 +6,8 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll.format": true
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
     }
 }
