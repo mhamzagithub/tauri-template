@@ -11,7 +11,7 @@
         "prepare": "husky install"
     },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
+        "*.{js,jsx,ts,tsx,md,html,css}": "prettier --allow-empty --write"
     },
     "dependencies": {
         "@tauri-apps/api": "^1.4.0",
